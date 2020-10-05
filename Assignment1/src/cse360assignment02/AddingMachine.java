@@ -1,5 +1,14 @@
 package cse360assignment02;
 
+/**
+* The AddingMachine allows users to add and subtract numbers 
+*  while keeping a history of all actions
+*
+* @author  Gabriel Waegner
+* @version 1.0
+* @since   10/04/2020
+*/
+
 public class AddingMachine {
   private int total;
   
@@ -8,19 +17,50 @@ public class AddingMachine {
   }
   
   public int getTotal () {
+    /**
+    * This method will later be set to return
+    * the int total
+    * @param none
+    * @return int total
+    */
     return 0;
   }
   
   public void add (int value) {
+    /**
+    * This method will be set to add the imported
+    *  value to our total and record it in the history
+    * @param value, which will be added into our total
+    * @return none
+    */
   }
 
   public void subtract (int value) {
+    /**
+    * This method will be set to subtract the imported
+    *  value from our total and record it in the history
+    * @param value, which will be added into our total
+    * @return none
+    */
   }
 
   public String toString () {
+    /**
+    * This method will be our print statement which will
+    *  return the total and the history of interactions
+    * @param none
+    * @return string that contains our total and the history
+    *  of interactions
+    */
     return "";
   }
 
   public void clear() {
+    /**
+    * This method will revert our total back to 0 and
+    * clear the history of all previous interactions
+    * @param none
+    * @return none
+    */
   }
 }
